@@ -2,6 +2,7 @@ version: "3.2"
 services:
   php:
     build: './php/'
+    container_name: php
     networks:
       - backend
     volumes:
@@ -16,7 +17,8 @@ services:
     ports:
       - "8080:80"
     volumes:
-      - ./public_html/:/usr/share/nginx/html
+      - ./public_html/:/var/www/src/public/
+      - ./nginx/conf.d/:/etc/nginx/conf.d/
   mysql:
     image: mysql:5.6.40
     networks:
