@@ -17,13 +17,15 @@ services:
     ports:
       - "8080:80"
     volumes:
-      - ./public_html/:/var/www/src/public/
+      - ./nginx/log/nginx-access.log:/var/log/nginx/access.log
+      - ./nginx/log/nginx-error.log:/var/log/nginx/error.log
+      - ./public_html/:/var/www/html/
       - ./nginx/conf.d/:/etc/nginx/conf.d/
-  mysql:
-    image: mysql:5.6.40
-    networks:
-      - backend
-    environment:
-      - MYSQL_ROOT_PASSWORD=rootpassword
+#  mysql:
+#    image: mysql:5.6.40
+#    networks:
+#      - backend
+#    environment:
+#      - MYSQL_ROOT_PASSWORD=rootpassword
 networks:
   backend:
