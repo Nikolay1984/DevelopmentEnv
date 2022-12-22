@@ -1,0 +1,258 @@
+2022/12/22 09:23:08 [notice] 1#1: using the "epoll" event method
+2022/12/22 09:23:08 [notice] 1#1: nginx/1.23.3
+2022/12/22 09:23:08 [notice] 1#1: built by gcc 12.2.1 20220924 (Alpine 12.2.1_git20220924-r4) 
+2022/12/22 09:23:08 [notice] 1#1: OS: Linux 5.10.102.1-microsoft-standard-WSL2
+2022/12/22 09:23:08 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/12/22 09:23:08 [notice] 1#1: start worker processes
+2022/12/22 09:23:08 [notice] 1#1: start worker process 20
+2022/12/22 09:23:08 [notice] 1#1: start worker process 21
+2022/12/22 09:23:08 [notice] 1#1: start worker process 22
+2022/12/22 09:23:08 [notice] 1#1: start worker process 23
+2022/12/22 09:23:08 [notice] 1#1: start worker process 24
+2022/12/22 09:23:08 [notice] 1#1: start worker process 25
+2022/12/22 09:23:08 [notice] 1#1: start worker process 26
+2022/12/22 09:23:08 [notice] 1#1: start worker process 27
+2022/12/22 11:32:03 [notice] 49#49: signal process started
+2022/12/22 11:32:03 [notice] 1#1: signal 1 (SIGHUP) received from 49, reconfiguring
+2022/12/22 11:32:03 [notice] 1#1: reconfiguring
+2022/12/22 11:32:03 [notice] 1#1: using the "epoll" event method
+2022/12/22 11:32:03 [notice] 1#1: start worker processes
+2022/12/22 11:32:03 [notice] 1#1: start worker process 50
+2022/12/22 11:32:03 [notice] 1#1: start worker process 51
+2022/12/22 11:32:03 [notice] 1#1: start worker process 52
+2022/12/22 11:32:03 [notice] 1#1: start worker process 53
+2022/12/22 11:32:03 [notice] 1#1: start worker process 54
+2022/12/22 11:32:03 [notice] 1#1: start worker process 55
+2022/12/22 11:32:03 [notice] 1#1: start worker process 56
+2022/12/22 11:32:03 [notice] 1#1: start worker process 57
+2022/12/22 11:32:03 [notice] 20#20: gracefully shutting down
+2022/12/22 11:32:03 [notice] 20#20: exiting
+2022/12/22 11:32:03 [notice] 23#23: gracefully shutting down
+2022/12/22 11:32:03 [notice] 21#21: gracefully shutting down
+2022/12/22 11:32:03 [notice] 21#21: exiting
+2022/12/22 11:32:03 [notice] 24#24: gracefully shutting down
+2022/12/22 11:32:03 [notice] 24#24: exiting
+2022/12/22 11:32:03 [notice] 22#22: gracefully shutting down
+2022/12/22 11:32:03 [notice] 22#22: exiting
+2022/12/22 11:32:03 [notice] 25#25: gracefully shutting down
+2022/12/22 11:32:03 [notice] 27#27: gracefully shutting down
+2022/12/22 11:32:03 [notice] 27#27: exiting
+2022/12/22 11:32:03 [notice] 26#26: gracefully shutting down
+2022/12/22 11:32:03 [notice] 26#26: exiting
+2022/12/22 11:32:03 [notice] 20#20: exit
+2022/12/22 11:32:03 [notice] 23#23: exiting
+2022/12/22 11:32:03 [notice] 21#21: exit
+2022/12/22 11:32:03 [notice] 23#23: exit
+2022/12/22 11:32:03 [notice] 24#24: exit
+2022/12/22 11:32:03 [notice] 22#22: exit
+2022/12/22 11:32:03 [notice] 25#25: exiting
+2022/12/22 11:32:03 [notice] 27#27: exit
+2022/12/22 11:32:03 [notice] 26#26: exit
+2022/12/22 11:32:03 [notice] 25#25: exit
+2022/12/22 11:32:03 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/12/22 11:32:03 [notice] 1#1: worker process 26 exited with code 0
+2022/12/22 11:32:03 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/22 11:32:03 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/12/22 11:32:03 [notice] 1#1: worker process 20 exited with code 0
+2022/12/22 11:32:03 [notice] 1#1: worker process 22 exited with code 0
+2022/12/22 11:32:03 [notice] 1#1: worker process 23 exited with code 0
+2022/12/22 11:32:03 [notice] 1#1: worker process 24 exited with code 0
+2022/12/22 11:32:03 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/22 11:32:03 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/12/22 11:32:03 [notice] 1#1: worker process 25 exited with code 0
+2022/12/22 11:32:03 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/22 11:32:03 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2022/12/22 11:32:03 [notice] 1#1: worker process 21 exited with code 0
+2022/12/22 11:32:03 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/22 11:32:03 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2022/12/22 11:32:03 [notice] 1#1: worker process 27 exited with code 0
+2022/12/22 11:32:03 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/22 11:32:43 [notice] 58#58: signal process started
+2022/12/22 11:32:43 [notice] 1#1: signal 1 (SIGHUP) received from 58, reconfiguring
+2022/12/22 11:32:43 [notice] 1#1: reconfiguring
+2022/12/22 11:32:43 [notice] 1#1: using the "epoll" event method
+2022/12/22 11:32:43 [notice] 1#1: start worker processes
+2022/12/22 11:32:43 [notice] 1#1: start worker process 59
+2022/12/22 11:32:43 [notice] 1#1: start worker process 60
+2022/12/22 11:32:43 [notice] 1#1: start worker process 61
+2022/12/22 11:32:43 [notice] 1#1: start worker process 62
+2022/12/22 11:32:43 [notice] 1#1: start worker process 63
+2022/12/22 11:32:43 [notice] 1#1: start worker process 64
+2022/12/22 11:32:43 [notice] 1#1: start worker process 65
+2022/12/22 11:32:43 [notice] 1#1: start worker process 66
+2022/12/22 11:32:43 [notice] 50#50: gracefully shutting down
+2022/12/22 11:32:43 [notice] 51#51: gracefully shutting down
+2022/12/22 11:32:43 [notice] 53#53: gracefully shutting down
+2022/12/22 11:32:43 [notice] 54#54: gracefully shutting down
+2022/12/22 11:32:43 [notice] 52#52: gracefully shutting down
+2022/12/22 11:32:43 [notice] 52#52: exiting
+2022/12/22 11:32:43 [notice] 56#56: gracefully shutting down
+2022/12/22 11:32:43 [notice] 56#56: exiting
+2022/12/22 11:32:43 [notice] 55#55: gracefully shutting down
+2022/12/22 11:32:43 [notice] 57#57: gracefully shutting down
+2022/12/22 11:32:43 [notice] 57#57: exiting
+2022/12/22 11:32:43 [notice] 51#51: exiting
+2022/12/22 11:32:43 [notice] 53#53: exiting
+2022/12/22 11:32:43 [notice] 54#54: exiting
+2022/12/22 11:32:43 [notice] 52#52: exit
+2022/12/22 11:32:43 [notice] 56#56: exit
+2022/12/22 11:32:43 [notice] 55#55: exiting
+2022/12/22 11:32:43 [notice] 57#57: exit
+2022/12/22 11:32:43 [notice] 51#51: exit
+2022/12/22 11:32:43 [notice] 53#53: exit
+2022/12/22 11:32:43 [notice] 54#54: exit
+2022/12/22 11:32:43 [notice] 55#55: exit
+2022/12/22 11:32:43 [notice] 1#1: signal 17 (SIGCHLD) received from 52
+2022/12/22 11:32:43 [notice] 1#1: worker process 52 exited with code 0
+2022/12/22 11:32:43 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/22 11:32:43 [notice] 1#1: signal 17 (SIGCHLD) received from 55
+2022/12/22 11:32:43 [notice] 1#1: worker process 54 exited with code 0
+2022/12/22 11:32:43 [notice] 1#1: worker process 55 exited with code 0
+2022/12/22 11:32:43 [notice] 1#1: worker process 56 exited with code 0
+2022/12/22 11:32:43 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/22 11:32:43 [notice] 1#1: signal 17 (SIGCHLD) received from 54
+2022/12/22 11:32:43 [notice] 1#1: signal 17 (SIGCHLD) received from 51
+2022/12/22 11:32:43 [notice] 1#1: worker process 51 exited with code 0
+2022/12/22 11:32:43 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/22 11:32:43 [notice] 1#1: signal 17 (SIGCHLD) received from 57
+2022/12/22 11:32:43 [notice] 1#1: worker process 53 exited with code 0
+2022/12/22 11:32:43 [notice] 1#1: worker process 57 exited with code 0
+2022/12/22 11:32:43 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/22 11:32:47 [notice] 50#50: exiting
+2022/12/22 11:32:47 [notice] 50#50: exit
+2022/12/22 11:32:47 [notice] 1#1: signal 17 (SIGCHLD) received from 50
+2022/12/22 11:32:47 [notice] 1#1: worker process 50 exited with code 0
+2022/12/22 11:32:47 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/22 11:32:47 [error] 59#59: *10 open() "/etc/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.22.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/12/22 11:32:47 [error] 59#59: *10 "/etc/nginx/html/index.php" is not found (2: No such file or directory), client: 172.22.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2022/12/22 11:32:47 [error] 59#59: *10 open() "/etc/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.22.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/12/22 11:32:49 [error] 59#59: *10 "/etc/nginx/html/index.php" is not found (2: No such file or directory), client: 172.22.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2022/12/22 11:32:49 [error] 59#59: *10 open() "/etc/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.22.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/12/22 11:32:49 [error] 59#59: *10 "/etc/nginx/html/index.php" is not found (2: No such file or directory), client: 172.22.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2022/12/22 11:32:49 [error] 59#59: *10 open() "/etc/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.22.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/12/22 11:32:49 [error] 59#59: *10 "/etc/nginx/html/index.php" is not found (2: No such file or directory), client: 172.22.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2022/12/22 11:32:50 [error] 59#59: *10 open() "/etc/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.22.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/12/22 11:32:50 [error] 59#59: *10 "/etc/nginx/html/index.php" is not found (2: No such file or directory), client: 172.22.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2022/12/22 11:32:50 [error] 59#59: *10 open() "/etc/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.22.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/12/22 11:32:50 [error] 59#59: *10 "/etc/nginx/html/index.php" is not found (2: No such file or directory), client: 172.22.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2022/12/22 11:32:50 [error] 59#59: *10 open() "/etc/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.22.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/12/22 11:32:50 [error] 59#59: *10 "/etc/nginx/html/index.php" is not found (2: No such file or directory), client: 172.22.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2022/12/22 11:32:50 [error] 59#59: *10 open() "/etc/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.22.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/12/22 11:32:50 [error] 59#59: *10 "/etc/nginx/html/index.php" is not found (2: No such file or directory), client: 172.22.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2022/12/22 11:32:50 [error] 59#59: *10 "/etc/nginx/html/index.php" is not found (2: No such file or directory), client: 172.22.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2022/12/22 11:32:50 [error] 59#59: *10 open() "/etc/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.22.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/12/22 11:33:06 [notice] 67#67: signal process started
+2022/12/22 11:33:06 [notice] 1#1: signal 1 (SIGHUP) received from 67, reconfiguring
+2022/12/22 11:33:06 [notice] 1#1: reconfiguring
+2022/12/22 11:33:06 [notice] 1#1: using the "epoll" event method
+2022/12/22 11:33:06 [notice] 1#1: start worker processes
+2022/12/22 11:33:06 [notice] 1#1: start worker process 68
+2022/12/22 11:33:06 [notice] 1#1: start worker process 69
+2022/12/22 11:33:06 [notice] 1#1: start worker process 70
+2022/12/22 11:33:06 [notice] 1#1: start worker process 71
+2022/12/22 11:33:06 [notice] 1#1: start worker process 72
+2022/12/22 11:33:06 [notice] 1#1: start worker process 73
+2022/12/22 11:33:06 [notice] 1#1: start worker process 74
+2022/12/22 11:33:06 [notice] 1#1: start worker process 75
+2022/12/22 11:33:06 [notice] 60#60: gracefully shutting down
+2022/12/22 11:33:06 [notice] 61#61: gracefully shutting down
+2022/12/22 11:33:06 [notice] 63#63: gracefully shutting down
+2022/12/22 11:33:06 [notice] 59#59: gracefully shutting down
+2022/12/22 11:33:06 [notice] 62#62: gracefully shutting down
+2022/12/22 11:33:06 [notice] 64#64: gracefully shutting down
+2022/12/22 11:33:06 [notice] 66#66: gracefully shutting down
+2022/12/22 11:33:06 [notice] 66#66: exiting
+2022/12/22 11:33:06 [notice] 65#65: gracefully shutting down
+2022/12/22 11:33:06 [notice] 61#61: exiting
+2022/12/22 11:33:06 [notice] 63#63: exiting
+2022/12/22 11:33:06 [notice] 59#59: exiting
+2022/12/22 11:33:06 [notice] 62#62: exiting
+2022/12/22 11:33:06 [notice] 64#64: exiting
+2022/12/22 11:33:06 [notice] 66#66: exit
+2022/12/22 11:33:06 [notice] 64#64: exit
+2022/12/22 11:33:06 [notice] 65#65: exiting
+2022/12/22 11:33:06 [notice] 61#61: exit
+2022/12/22 11:33:06 [notice] 63#63: exit
+2022/12/22 11:33:06 [notice] 59#59: exit
+2022/12/22 11:33:06 [notice] 62#62: exit
+2022/12/22 11:33:06 [notice] 65#65: exit
+2022/12/22 11:33:06 [notice] 1#1: signal 17 (SIGCHLD) received from 64
+2022/12/22 11:33:06 [notice] 1#1: worker process 62 exited with code 0
+2022/12/22 11:33:06 [notice] 1#1: worker process 63 exited with code 0
+2022/12/22 11:33:06 [notice] 1#1: worker process 64 exited with code 0
+2022/12/22 11:33:06 [notice] 1#1: worker process 65 exited with code 0
+2022/12/22 11:33:06 [notice] 1#1: worker process 66 exited with code 0
+2022/12/22 11:33:07 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/22 11:33:07 [notice] 1#1: signal 17 (SIGCHLD) received from 61
+2022/12/22 11:33:07 [notice] 1#1: worker process 59 exited with code 0
+2022/12/22 11:33:07 [notice] 1#1: worker process 61 exited with code 0
+2022/12/22 11:33:07 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/22 11:33:07 [notice] 1#1: signal 17 (SIGCHLD) received from 59
+2022/12/22 11:33:28 [error] 60#60: *12 "/etc/nginx/html/index.php" is not found (2: No such file or directory), client: 172.22.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2022/12/22 11:33:28 [notice] 60#60: exiting
+2022/12/22 11:33:28 [notice] 60#60: exit
+2022/12/22 11:33:28 [notice] 1#1: signal 17 (SIGCHLD) received from 60
+2022/12/22 11:33:28 [notice] 1#1: worker process 60 exited with code 0
+2022/12/22 11:33:28 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/22 11:34:10 [error] 68#68: *13 "/var/www/html/index/index.php" is not found (2: No such file or directory), client: 172.22.0.1, server: localhost, request: "GET /index/ HTTP/1.1", host: "localhost"
+2022/12/22 11:38:08 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/12/22 11:38:08 [notice] 68#68: gracefully shutting down
+2022/12/22 11:38:08 [notice] 69#69: gracefully shutting down
+2022/12/22 11:38:08 [notice] 70#70: gracefully shutting down
+2022/12/22 11:38:08 [notice] 71#71: gracefully shutting down
+2022/12/22 11:38:08 [notice] 72#72: gracefully shutting down
+2022/12/22 11:38:08 [notice] 73#73: gracefully shutting down
+2022/12/22 11:38:08 [notice] 74#74: gracefully shutting down
+2022/12/22 11:38:08 [notice] 75#75: gracefully shutting down
+2022/12/22 11:38:08 [notice] 68#68: exiting
+2022/12/22 11:38:08 [notice] 69#69: exiting
+2022/12/22 11:38:08 [notice] 70#70: exiting
+2022/12/22 11:38:08 [notice] 71#71: exiting
+2022/12/22 11:38:08 [notice] 72#72: exiting
+2022/12/22 11:38:08 [notice] 73#73: exiting
+2022/12/22 11:38:08 [notice] 74#74: exiting
+2022/12/22 11:38:08 [notice] 75#75: exiting
+2022/12/22 11:38:08 [notice] 68#68: exit
+2022/12/22 11:38:08 [notice] 69#69: exit
+2022/12/22 11:38:08 [notice] 70#70: exit
+2022/12/22 11:38:08 [notice] 71#71: exit
+2022/12/22 11:38:08 [notice] 72#72: exit
+2022/12/22 11:38:08 [notice] 73#73: exit
+2022/12/22 11:38:08 [notice] 74#74: exit
+2022/12/22 11:38:08 [notice] 75#75: exit
+2022/12/22 11:38:08 [notice] 1#1: signal 17 (SIGCHLD) received from 71
+2022/12/22 11:38:08 [notice] 1#1: worker process 71 exited with code 0
+2022/12/22 11:38:08 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/22 11:38:08 [notice] 1#1: signal 17 (SIGCHLD) received from 68
+2022/12/22 11:38:08 [notice] 1#1: worker process 68 exited with code 0
+2022/12/22 11:38:08 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/22 11:38:08 [notice] 1#1: signal 17 (SIGCHLD) received from 73
+2022/12/22 11:38:08 [notice] 1#1: worker process 73 exited with code 0
+2022/12/22 11:38:08 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/22 11:38:08 [notice] 1#1: signal 17 (SIGCHLD) received from 69
+2022/12/22 11:38:08 [notice] 1#1: worker process 69 exited with code 0
+2022/12/22 11:38:08 [notice] 1#1: worker process 75 exited with code 0
+2022/12/22 11:38:08 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/22 11:38:08 [notice] 1#1: signal 17 (SIGCHLD) received from 72
+2022/12/22 11:38:08 [notice] 1#1: worker process 72 exited with code 0
+2022/12/22 11:38:08 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/22 11:38:08 [notice] 1#1: signal 17 (SIGCHLD) received from 74
+2022/12/22 11:38:08 [notice] 1#1: worker process 74 exited with code 0
+2022/12/22 11:38:08 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/22 11:38:08 [notice] 1#1: signal 17 (SIGCHLD) received from 70
+2022/12/22 11:38:08 [notice] 1#1: worker process 70 exited with code 0
+2022/12/22 11:38:08 [notice] 1#1: exit
+2022/12/22 11:38:22 [notice] 1#1: using the "epoll" event method
+2022/12/22 11:38:22 [notice] 1#1: nginx/1.23.3
+2022/12/22 11:38:22 [notice] 1#1: built by gcc 12.2.1 20220924 (Alpine 12.2.1_git20220924-r4) 
+2022/12/22 11:38:22 [notice] 1#1: OS: Linux 5.10.102.1-microsoft-standard-WSL2
+2022/12/22 11:38:22 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/12/22 11:38:22 [notice] 1#1: start worker processes
+2022/12/22 11:38:22 [notice] 1#1: start worker process 21
+2022/12/22 11:38:22 [notice] 1#1: start worker process 22
+2022/12/22 11:38:22 [notice] 1#1: start worker process 23
+2022/12/22 11:38:22 [notice] 1#1: start worker process 24
+2022/12/22 11:38:22 [notice] 1#1: start worker process 25
+2022/12/22 11:38:22 [notice] 1#1: start worker process 26
+2022/12/22 11:38:22 [notice] 1#1: start worker process 27
+2022/12/22 11:38:22 [notice] 1#1: start worker process 28
