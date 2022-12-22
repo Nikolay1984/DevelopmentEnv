@@ -3,7 +3,11 @@ version: "3.2"
 services:
 
   php:
-    build: './docker/php/'
+    build:
+      context: './docker/php/'
+      dockerfile: 'Dockerfile'
+      args:
+        PHP_VERSION_DOCKERFILE: ${PHP_VERSION}
     container_name: php
     networks:
       - backend
@@ -18,7 +22,7 @@ services:
     networks:
       - backend
     ports:
-      - "80:80"
+      - "${NGINX_HOST_PORT}:80"
     volumes:
       - ./docker/nginx/log/nginx-access.log:/var/log/nginx/access.log
       - ./docker/nginx/log/nginx-error.log:/var/log/nginx/error.log
