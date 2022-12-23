@@ -1,3 +1,4 @@
 <?php
 
-print_r(PDO::getAvailableDrivers());
+echo '<plaintext>';
+var_dump(444);

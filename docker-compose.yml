@@ -9,20 +9,21 @@ services:
       args:
         PHP_VERSION_DOCKERFILE: ${PHP_VERSION}
     container_name: php
-    depends_on:
-      - mysql
     networks:
       - backend
+    depends_on:
+      - mysql
     volumes:
       - ./public_html/:/var/www/html/
 
   nginx:
+#    TODO напиши build как у сервисов выше
     build: './docker/nginx/'
     container_name: nginx
-    depends_on:
-      - php
     networks:
       - backend
+    depends_on:
+      - php
     ports:
       - "${NGINX_HOST_PORT}:80"
     volumes:
@@ -43,10 +44,29 @@ services:
     ports:
       - "3306:3306"
     environment:
-      - MYSQL_DATABASE=sait
-      - MYSQL_ROOT_PASSWORD=${MYSQL_PASSWORD}
+#      TODO доделай нормальное подтягивание переменных через .env
+      - MYSQL_USER=nik
+      - MYSQL_PASSWORD=root
+      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_DATABASE=test
     volumes:
       - ./docker/mysql/data:/var/lib/mysql
+    command: --default-authentication-plugin=mysql_native_password
+
+  phpmyadmin:
+    build:
+      context: './docker/phpmyadmin/'
+      dockerfile: 'Dockerfile'
+    container_name: phpmyadmin
+    networks:
+      - backend
+    depends_on:
+      - mysql
+    ports:
+      - "8081:80"
+    environment:
+      - PMA_ARBITRARY=1
+      - PMA_HOST=mysql
 
 networks:
   backend:
