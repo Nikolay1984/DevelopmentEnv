@@ -1,2 +1,3 @@
 <?php
-echo 1111;
+
+print_r(PDO::getAvailableDrivers());

@@ -9,6 +9,8 @@ services:
       args:
         PHP_VERSION_DOCKERFILE: ${PHP_VERSION}
     container_name: php
+    depends_on:
+      - mysql
     networks:
       - backend
     volumes:
@@ -29,12 +31,23 @@ services:
       - ./public_html/:/var/www/html/
       - ./docker/nginx/conf.d/:/etc/nginx/conf.d/
 
-#  mysql:
-#    image: mysql:5.6.40
-#    networks:
-#      - backend
-#    environment:
-#      - MYSQL_ROOT_PASSWORD=rootpassword
+  mysql:
+    build:
+      context: './docker/mysql/'
+      dockerfile: 'Dockerfile'
+      args:
+        MYSQL_VERSION_DOCKERFILE: ${MYSQL_VERSION}
+    container_name: mysql
+    networks:
+      - backend
+    ports:
+      - "3306:3306"
+    environment:
+      - MYSQL_DATABASE=sait
+      - MYSQL_ROOT_PASSWORD=${MYSQL_PASSWORD}
+    volumes:
+      - ./docker/mysql/data:/var/lib/mysql
+
 networks:
   backend:
     driver: bridge
