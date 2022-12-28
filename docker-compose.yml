@@ -17,8 +17,9 @@ services:
       - ./public_html/:/var/www/html/
 
   nginx:
-#    TODO напиши build как у сервисов выше
-    build: './docker/nginx/'
+    build:
+      context: './docker/nginx/'
+      dockerfile: 'Dockerfile'
     container_name: nginx
     networks:
       - backend
