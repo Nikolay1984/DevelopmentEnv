@@ -15,6 +15,9 @@ services:
       - mysql
     volumes:
       - ./public_html/:/var/www/html/
+      - ./docker/php/php.ini:/usr/local/etc/php/conf.d/40-custom.ini
+      - ./docker/php/error_reporting.ini:/usr/local/etc/php/conf.d/error_reporting.ini
+      - ./docker/php/xdebug.ini:/usr/local/etc/php/conf.d/docker-php-ext-xdebug.ini
 
   nginx:
     build:
