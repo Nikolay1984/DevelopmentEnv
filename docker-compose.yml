@@ -1,7 +1,7 @@
 version: "3.2"
 services:
-  php:
-    build: './php/'
+  app:
+    build: 'docker/app/'
     networks:
       - backend
     volumes:
