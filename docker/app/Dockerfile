@@ -1,4 +1,9 @@
-FROM php:7.2.7-fpm-alpine3.7
-RUN apk update; \
-    apk upgrade;
-RUN docker-php-ext-install mysqli
+ARG OS
+ARG OS_VERSION
+FROM $OS:$OS_VERSION
+
+RUN apt update && apt install -y \
+    nginx
+
+CMD ["nginx", "-g", "daemon off;"]
+# TODO пока только мы установили nginx, еще нужно будет его поднастроить и дальше установить PHP и Composer
