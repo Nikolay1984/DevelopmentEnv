@@ -25,11 +25,11 @@ RUN apt-get update && apt-get install -y \
 # Куда же без composer'а.
 RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
 
-
+#Добавляем xdebug
 RUN cd ~; git clone https://github.com/xdebug/xdebug.git; cd xdebug;  git checkout 2.8.0; ./rebuild.sh;
 
 
-#Добавляем xdebug
+
 
 WORKDIR /var/www
 
