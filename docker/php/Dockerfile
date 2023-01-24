@@ -25,17 +25,7 @@ RUN apt-get update && apt-get install -y \
 # Куда же без composer'а.
 RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
 
-
-#TODO начинай от сюда, пока не понятно как передать переменную в контейнер при сборке - выдает ошибку!
-#Добавляем xdebug
-#RUN  export var1=${PHP_VERSION_DOCKERFILE}
-#RUN echo $var1
-#
-#RUN apt-get install -y php$APP_ENV-xdebug
-
-# Добавим свой php.ini, можем в нем определять свои значения конфига
-#ADD php.ini /usr/local/etc/php/conf.d/40-custom.ini
-
+RUN pecl install xdebug-2.8.0;
 # Указываем рабочую директорию для PHP
 WORKDIR /var/www
 

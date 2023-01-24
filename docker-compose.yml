@@ -40,8 +40,6 @@ services:
     build:
       context: './docker/mysql/'
       dockerfile: 'Dockerfile'
-      args:
-        MYSQL_VERSION_DOCKERFILE: ${MYSQL_VERSION}
     container_name: mysql
     networks:
       - backend
@@ -52,7 +50,7 @@ services:
       - MYSQL_DATABASE=${MYSQL_DATABASE}
     volumes:
       - ./docker/mysql/data:/var/lib/mysql
-    command: --default-authentication-plugin=mysql_native_password
+#    command: --default-authentication-plugin=mysql_native_password
 
   phpmyadmin:
     build:
