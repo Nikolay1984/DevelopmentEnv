@@ -45,7 +45,7 @@ services:
     volumes:
       - ./docker/nginx/log/nginx-access.log:/var/log/nginx/access.log:delegated
       - ./docker/nginx/log/nginx-error.log:/var/log/nginx/error.log:delegated
-#      - ./public_html/:/var/www/html/:cached
+      - ./public_html/:/var/www/html/:cached
       - ./docker/nginx/conf.d/:/etc/nginx/conf.d/:cached
 
   mysql:
