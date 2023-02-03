@@ -2,6 +2,15 @@ version: "3.2"
 
 services:
 
+  laravel:
+    image: bitnami/laravel:5.7.19
+    stdin_open: true
+    tty: true
+    container_name: lara
+    restart: always
+    volumes:
+      - ./public_html/:/app
+
   php:
     build:
       context: './docker/php/'
