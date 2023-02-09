@@ -11,12 +11,12 @@
         @csrf
 
         <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-md-8">
-                    @include('blog.admin.category.includes.item_edit_main_col')
+            <div class="row justify-content-center common-test">
+                <div class="col-md-8 test-up">
+                    @include('blog.admin.categories.includes.item_edit_main_col')
                 </div>
-                <div class="col-md-3">
-                    @include('blog.admin.category.includes.item_edit_add_col')
+                <div class="col-md-3 test-down">
+                    @include('blog.admin.categories.includes.item_edit_add_col')
                 </div>
             </div>
         </div>
