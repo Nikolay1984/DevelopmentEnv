@@ -1,1 +1,1 @@
-FROM mariadb:10.1.35
+FROM mysql:5.7
