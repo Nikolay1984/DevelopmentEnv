@@ -20,7 +20,7 @@ if ( have_posts() ) {
 		echo 'bla ';
 //		echo( $post->post_title );
 //		echo '<br>';
-//		the_content();
+		the_content();
 //		echo '<br>';
 ////		die();
 		the_title( '<h1>', '</h1>' );
