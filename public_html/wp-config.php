@@ -114,6 +114,7 @@ $table_prefix = getenv_docker('WORDPRESS_TABLE_PREFIX', 'wp_');
 
 
 //debug
+
 define( 'WP_DEBUG', !!getenv_docker('WORDPRESS_DEBUG', '') );
 
 const WP_DEBUG_LOG = true;
@@ -137,17 +138,15 @@ comments, or feedback:[[br]]
 * Send an email to the Theme Review email list[[br]]
 * Use the #wordpress-themes IRC channel on Freenode.' );
 
-
-
-
-
-
-
-
-
-
 //end debug
 
+define('WP_ALLOW_MULTISITE', true);
+define( 'MULTISITE', true );
+define( 'SUBDOMAIN_INSTALL', false );
+define( 'DOMAIN_CURRENT_SITE', 'localhost' );
+define( 'PATH_CURRENT_SITE', '/' );
+define( 'SITE_ID_CURRENT_SITE', 1 );
+define( 'BLOG_ID_CURRENT_SITE', 1 );
 
 
 // If we're behind a proxy server and using HTTPS, we need to alert WordPress of that fact

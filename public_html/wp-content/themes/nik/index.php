@@ -21,6 +21,7 @@ if ( have_posts() ) {
 
 		if ( is_home() ) {
 			echo 'is home';
+			break;
 		} elseif ( is_front_page() ) {
 			echo 'front page';
 		} elseif ( is_single() ) {
